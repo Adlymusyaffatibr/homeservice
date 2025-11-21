@@ -164,7 +164,6 @@ class service extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.black.withOpacity(0.3),
-                      // opsional: efek gelap biar teks tetap terbaca
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -421,7 +420,6 @@ class service extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
-                      // FOTO PROFIL
                       CircleAvatar(
                         radius: 28,
                         backgroundImage: AssetImage("assets/images/mie.jpg"),
@@ -429,7 +427,6 @@ class service extends StatelessWidget {
 
                       SizedBox(width: 12),
 
-                      // TEXT KIRI
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -491,7 +488,6 @@ class service extends StatelessWidget {
 
                       SizedBox(width: 8),
 
-                      // BUTTON
                       ElevatedButton(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
